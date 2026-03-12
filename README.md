@@ -1,16 +1,37 @@
-# React + Vite
+# Kalapreeti - Architectural Excellence
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Kalapreeti** – an ultra-premium, dynamic website for an architectural studio. Designed with high-end UI patterns from advanced architectural and design websites, featuring smooth scroll animations, glassmorphism, and bold typography.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **High-Fidelity UI**: Minimal, ultra-sharp aesthetics matching top-tier architecture firms.
+- **Scroll Animations**: Smooth physics-based framer-motion animations triggered on scroll.
+- **Dynamic Projects Grid**: Premium offset grid honoring selected works.
+- **Interactive Navbar**: Classy glassmorphism dropdown menu for both desktop and mobile.
+- **Vite & React Ecosystem**: Extremely fast environment using Vite with React 19 + Framer Motion.
+- **Fully Responsive**: Flawless execution across Mobile, Tablet, and Desktop breakpoints.
 
-## React Compiler
+## Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Run Development Server:**
+   ```bash
+   npm run dev
+   ```
+3. **Build for Production:**
+   ```bash
+   npm run build
+   ```
 
-## Expanding the ESLint configuration
+## Technologies
+- React.js 19
+- Framer Motion
+- Lucide React (Icons)
+- Vanilla CSS
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+Configured to deploy on GitHub Pages using \`npm run deploy\` via the gh-pages module.

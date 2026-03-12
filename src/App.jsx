@@ -149,7 +149,7 @@ const Hero = () => {
   return (
     <section id="home" className="hero-v4" ref={ref}>
       <motion.div className="hero-bg-v4" style={{ y, scale }}>
-        <img src="/assets/hero.png" alt="Hero" />
+        <img src="assets/hero.png" alt="Hero" />
         <div className="hero-overlay-v4"></div>
       </motion.div>
       <div className="container hero-inner-v4">
@@ -263,10 +263,10 @@ const ProjectsGrid = () => (
         <h2 className="title-v4">ARCHITECTURAL <br /> EXCELLENCE</h2>
       </div>
       <div className="projects-grid-v4">
-        <ProjectItem title="Elysian Spire" year="2025" image="/assets/project1.png" index={0} />
-        <ProjectItem title="Solara Pavilion" year="2023" image="/assets/project2.png" index={1} />
-        <ProjectItem title="Nebura Heights" year="2016" image="/assets/project3.png" index={2} />
-        <ProjectItem title="Etoile Grand" year="2012" image="/assets/project4.png" index={3} />
+        <ProjectItem title="Elysian Spire" year="2025" image="assets/project1.png" index={0} />
+        <ProjectItem title="Solara Pavilion" year="2023" image="assets/project2.png" index={1} />
+        <ProjectItem title="Nebura Heights" year="2016" image="assets/project3.png" index={2} />
+        <ProjectItem title="Etoile Grand" year="2012" image="assets/project4.png" index={3} />
       </div>
     </div>
   </section>
@@ -376,7 +376,7 @@ function App() {
                    whileInView={{ opacity: 1, x: 0 }}
                    transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                  >
-                   <img src="/assets/studio.png" alt="Studio" />
+                   <img src="assets/studio.png" alt="Studio" />
                  </motion.div>
                </div>
             </div>
