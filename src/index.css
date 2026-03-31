@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  /* Colors - Premium Architectural Palette */
-  --bg-dark: #060606;
-  --bg-light: #ffffff;
-  --bg-secondary: #f3f3f3;
-  --text-primary: #ffffff;
-  --text-dark: #000000;
-  --text-muted: #919191;
-  --accent: #ffffff;
+  /* Colors - Kalapriti Associates Palette */
+  --bg-dark: #054409;      /* Primary Dark Green */
+  --bg-deep: #032b06;      /* Slightly darker variant for depth */
+  --bg-light: #f7f7f7;     /* Off-white background */
+  --bg-mint: #e0f4e1;      /* Light Green/Mint accents */
+  
+  --text-primary: #f7f7f7; /* White text for dark backgrounds */
+  --text-dark: #333333;    /* Grey text for light backgrounds */
+  --text-muted: #94ad95;   /* Soft Green for secondary text */
+  
+  --accent: #316737;       /* Medium Green */
+  --accent-soft: #94ad95;  /* Soft Green UI elements */
+  --accent-glow: #123d15;  /* Alternate Dark Green */
   
   /* Fonts */
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;
@@ -35,8 +40,8 @@ body {
 h1, h2, h3, h4 {
   font-family: var(--font-main);
   font-weight: 900;
-  letter-spacing: -0.05em;
-  line-height: 0.8;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
   text-transform: uppercase;
 }
 

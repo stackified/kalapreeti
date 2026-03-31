@@ -1,9 +1,9 @@
 {
-  "name": "kalapreeti",
+  "name": "kalapriti",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://stackified.github.io/kalapreeti",
+  "homepage": "https://stackified.github.io/kalapriti",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
